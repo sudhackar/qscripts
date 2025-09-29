@@ -16,7 +16,7 @@ plugin_t PLUGIN =
 {
     IDP_INTERFACE_VERSION,
     PLUGIN_UNL | PLUGIN_MULTI,
-    []()->plugmod_t* {return new plugin_ctx_t; },
+    []()->plugmod_t* { return new plugin_ctx_t; },
     nullptr,
     nullptr,
     nullptr,
