@@ -9,7 +9,9 @@
 #include <kernwin.hpp>
 #include <diskio.hpp>
 #include <registry.hpp>
-#include <idax/xkernwin.hpp>
+#include <idacpp/kernwin/kernwin.hpp>
+
+using namespace idacpp::kernwin;
 #pragma warning(pop)
 
 // IDA 8.3
